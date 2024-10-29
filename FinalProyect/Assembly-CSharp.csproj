@@ -57,8 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Imports\PROMETEO - Car Controller\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Imports\PROMETEO - Car Controller\Scripts\PrometeoCarController.cs" />
     <Compile Include="Assets\Imports\PROMETEO - Car Controller\Scripts\PrometeoTouchInput.cs" />
+    <Compile Include="Assets\Imports\PROMETEO - Car Controller\Scripts\PrometeoCarController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Imports\POLYGON city pack\Read_me.txt" />
