@@ -13,25 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys:
-    - .collabignore
-    - Assets/Imports/POLYGON city pack/mainscene.meta
-    - Assets/Imports/POLYGON city pack/mainscene/DemoScene.meta
-    - Assets/Imports/POLYGON city pack/mainscene/DemoScene/LightingData.asset
-    - Assets/Imports/POLYGON city pack/mainscene/DemoScene/LightingData.asset.meta
-    - Assets/Imports/POLYGON city pack/mainscene/DemoScene/ReflectionProbe-0.exr
-    - Assets/Imports/POLYGON city pack/mainscene/DemoScene/ReflectionProbe-0.exr.meta
-    - Assets/Imports/POLYGON city pack/mainscene/DemoSceneSettings.lighting
-    - Assets/Imports/POLYGON city pack/mainscene/DemoSceneSettings.lighting.meta
-    - Assets/Imports/POLYGON city pack/mainscene/MainScene.unity
-    - Assets/Imports/POLYGON city pack/mainscene/MainScene.unity.meta
-    - Assets/Readme.asset
-    - Assets/Readme.asset.meta
-    - Packages/manifest.json
-    - Packages/packages-lock.json
-    - ProjectSettings/ProjectVersion.txt
-    - 
-    m_Values: 0000000000000000000000000000000000
+    m_Keys: []
+    m_Values: 
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
