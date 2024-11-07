@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638664695412408148
-    m_Hash: 428011357
+      ticks: 638665083975516631
+    m_Hash: 2717489833
   m_LockFileStatus:
     m_FilePath: C:/Users/madie/Downloads/Getsemani/Videojuegos/Carrito/videogames1/FinalProyect/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638664695664719903
-    m_Hash: 1952295604
+      ticks: 638665083975536627
+    m_Hash: 2438143459
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

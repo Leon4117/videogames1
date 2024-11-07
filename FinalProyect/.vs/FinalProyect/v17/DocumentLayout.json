@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menupause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\madie\\downloads\\getsemani\\videojuegos\\carrito\\videogames1\\finalproyect\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPause.cs",
               "ToolTip": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuPause.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuPause.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAUwDQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T06:26:40.594Z",
               "EditorCaption": ""
@@ -49,10 +49,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
               "ToolTip": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\Menu.cs",
               "RelativeToolTip": "Assets\\Scripts\\Menu.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:30:32.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T06:30:32.138Z"
             }
           ]
         }
