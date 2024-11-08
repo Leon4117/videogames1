@@ -7,7 +7,7 @@ public class Menu : MonoBehaviour
     
     public void Play()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        TransicionEscenas.Instance.DisolverSalida(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void Exit()

@@ -59,6 +59,7 @@
     <Compile Include="Assets\Imports\MoreCars\Editor\PrometeoEditor.cs" />
     <Compile Include="Assets\Imports\Explosiones\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
     <Compile Include="Assets\Imports\Explosiones\WarFX\Editor\CFX_SpawnSystemEditor.cs" />
+    <Compile Include="Assets\Imports\Animaciones\Editor\LeanTweenDocumentationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
