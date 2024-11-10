@@ -2316,7 +2316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   disolverCanvasGroup: {fileID: 1063682567}
   timeDisolver: 2
-  timeDissolveSalida: 0
+  timeDissolveSalida: 1
 --- !u!4 &2046187113
 Transform:
   m_ObjectHideFlags: 0
