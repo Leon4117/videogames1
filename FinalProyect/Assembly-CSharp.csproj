@@ -81,6 +81,7 @@
     <Compile Include="Assets\Imports\Explosiones\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\Imports\Animaciones\Framework\LeanAudio.cs" />
     <Compile Include="Assets\Imports\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Scripts\Weather.cs" />
     <Compile Include="Assets\Imports\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\Imports\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Imports\Explosiones\WarFX\Spawn System\CFX_SpawnSystem.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Assets\Scripts\TransicionEscenas.cs" />
     <Compile Include="Assets\Imports\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Imports\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\Scripts\MenuAbout.cs" />
     <Compile Include="Assets\Imports\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Scripts\GeneralAdvancedTechniques.cs" />
     <Compile Include="Assets\Imports\Animaciones\Framework\LeanSmooth.cs" />
@@ -149,8 +151,7 @@
     <Compile Include="Assets\Imports\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Scripts\Weather.cs" />
-    <Compile Include="Assets\Scripts\MenuAbout.cs" />
+    <Compile Include="Assets\Scripts\Puntaje.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Imports\TextMesh Pro\Shaders\TMPro.cginc" />

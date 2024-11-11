@@ -7,6 +7,7 @@ public class MenuPause : MonoBehaviour
     //variables de objetos
     [SerializeField] private GameObject buttonPause;
     [SerializeField] private GameObject menuPause;
+    [SerializeField] private GameObject menuPuntos;
     //para boton de teclado 
     private bool gamePause = false;
 
@@ -56,5 +57,20 @@ public class MenuPause : MonoBehaviour
         Time.timeScale = 1f;//tiempo de juego
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
         gamePause = false;
+    }
+
+    public void BackSeleccion()
+    {
+        Debug.Log("Seleccionar carro");
+        Time.timeScale = 1f;//tiempo de juego
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+    //solo para ver si los puntos se estan modificando
+    public void Prueba()
+    {
+        //desactivar boton pausa
+        buttonPause.SetActive(false);
+        //activar menu
+        menuPuntos.SetActive(true);
     }
 }
