@@ -69,4 +69,10 @@ public class MenuSeleccion : MonoBehaviour
         //carga el juego
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+    public void Back()
+    {
+        Debug.Log("Atras");       
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+       
+    }
 }
