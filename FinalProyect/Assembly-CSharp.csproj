@@ -105,6 +105,7 @@
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Imports\Explosiones\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Scripts\GeneralEventsListeners.cs" />
+    <Compile Include="Assets\Scripts\Puntaje.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Scripts\PathSplineTrack.cs" />
     <Compile Include="Assets\Imports\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\Scripts\Seleccion.cs" />
@@ -151,7 +152,6 @@
     <Compile Include="Assets\Imports\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Scripts\Puntaje.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Imports\TextMesh Pro\Shaders\TMPro.cginc" />
