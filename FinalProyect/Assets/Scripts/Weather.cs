@@ -9,6 +9,15 @@ public class Weather : MonoBehaviour
     public Material sunny;
     public Material night;
     //cambiar el sky box
+
+    //modificar luces 
+    public Light mainLight;
+    public Light secLight;
+    public Light terLight;
+
+    public Color cloudyLi = new Color(0.5f, 0.5f, 0.6f);
+    public Color sunnyLi = Color.white;
+    public Color nightLi = new Color(0.2f, 0.2f, 0.3f);
     public void ChangeSkybox(int weatherType)
     {
         switch (weatherType)
@@ -16,14 +25,25 @@ public class Weather : MonoBehaviour
             case 1:
                 //se asigna el material al skybox
                 Debug.Log("Nublado");
+                //asigna cierta intensidad a las luces junto con el color
+                mainLight.intensity = 0.8f;
+                mainLight.color = cloudyLi;
+                if (secLight != null) secLight.intensity = 0.3f;
                 RenderSettings.skybox = cloudy;
                 break;
             case 2:
                 Debug.Log("Soleado");
+                mainLight.intensity = 0.9f;
+                mainLight.color = sunnyLi;
+                if (secLight != null) secLight.intensity = 0.9f;
+                if (terLight != null) terLight.intensity = 0.3f;
                 RenderSettings.skybox = sunny;
                 break;
             case 3:
                 Debug.Log("Noshe");
+                mainLight.intensity = 0.8f;
+                mainLight.color = nightLi;
+                if (secLight != null) secLight.intensity = 0.5f;
                 RenderSettings.skybox = night;
                 break;
             default:
