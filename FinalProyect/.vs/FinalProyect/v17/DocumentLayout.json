@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\iniciojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iniciojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\seleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\seleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\transicionescenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\transicionescenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\menupause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menupause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\menuabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\iniciojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iniciojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,18 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\menuseleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuseleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\menupause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menupause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\transicionescenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\transicionescenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\menuabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuabout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\assets\\scripts\\puntaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,8 +63,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T06:30:32.138Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -77,8 +76,7 @@
               "ViewState": "AgIAABgAAAAAAAAAAAAowCYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T02:43:09.224Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -86,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "MenuAbout.cs",
               "DocumentMoniker": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuAbout.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuAbout.cs",
@@ -105,14 +103,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weather.cs",
               "ToolTip": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\Weather.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weather.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAIwCUAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T19:56:18.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "InicioJugador.cs",
               "DocumentMoniker": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\InicioJugador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InicioJugador.cs",
@@ -120,12 +118,11 @@
               "RelativeToolTip": "Assets\\Scripts\\InicioJugador.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwBAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:25:39.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T05:25:39.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MenuSeleccion.cs",
               "DocumentMoniker": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuSeleccion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuSeleccion.cs",
@@ -133,12 +130,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MenuSeleccion.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAkwEkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T04:59:57.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T04:59:57.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -146,12 +142,11 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwBUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T04:27:21.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T04:27:21.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Seleccion.cs",
               "DocumentMoniker": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\Seleccion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Seleccion.cs",
@@ -164,20 +159,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "TransicionEscenas.cs",
               "DocumentMoniker": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\TransicionEscenas.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TransicionEscenas.cs",
               "ToolTip": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\TransicionEscenas.cs",
               "RelativeToolTip": "Assets\\Scripts\\TransicionEscenas.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T02:49:09.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MenuPause.cs",
               "DocumentMoniker": "C:\\Users\\madie\\Downloads\\Getsemani\\Videojuegos\\Carrito\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuPause.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPause.cs",
