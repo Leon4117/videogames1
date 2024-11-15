@@ -22,19 +22,7 @@ public class Weather : MonoBehaviour
     //luces del carro
     public Light[] carroLuces;
     public Light[] farosLuces;
-    //luces de la calle
-    public Light[] calleLuces;
-
-    public void Start()
-    {
-        //asignar las luces de los faros
-        GameObject[] calleLucesObject = GameObject.FindGameObjectsWithTag("FaroLuz");
-        calleLuces = new Light[calleLucesObject.Length];
-        for (int i = 0;i < calleLucesObject.Length; i++)
-        {
-            calleLuces[i] = calleLucesObject[i].GetComponent<Light>();
-        }
-    }
+   
     public void ChangeSkybox(int weatherType)
     {
         switch (weatherType)
@@ -42,7 +30,7 @@ public class Weather : MonoBehaviour
             case 1:
                 //se asigna el material al skybox
                 Debug.Log("Nublado");
-                PrenderLuces(false);
+               
                 //asigna cierta intensidad a las luces junto con el color
                 mainLight.intensity = 0.8f;
                 mainLight.color = cloudyLi;
@@ -53,7 +41,7 @@ public class Weather : MonoBehaviour
                 break;
             case 2:
                 Debug.Log("Soleado");
-                PrenderLuces(false);
+                
                 mainLight.intensity = 0.9f;
                 mainLight.color = sunnyLi;
                 if (secLight != null) secLight.intensity = 0.9f;
@@ -64,7 +52,7 @@ public class Weather : MonoBehaviour
                 break;
             case 3:
                 Debug.Log("Noshe");
-                PrenderLuces(true);
+                
                 mainLight.intensity = 0.5f;
                 mainLight.color = nightLi;
                 if (secLight != null) secLight.intensity = 0.3f;
@@ -98,12 +86,6 @@ public class Weather : MonoBehaviour
             light.enabled = faros;
         }
     }
-    public void PrenderLuces(bool estado)
-    {
-        foreach (var light in calleLuces)
-        {
-            light.enabled = estado;
-        }
-    }
+   
 
 }
