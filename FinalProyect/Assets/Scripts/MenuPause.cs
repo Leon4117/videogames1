@@ -31,6 +31,7 @@ public class MenuPause : MonoBehaviour
         //activar menu
         menuPause.SetActive(true);
         gamePause = true;
+        Musica.Instance.PausarMusic();
         Debug.Log("Pausaaaaa");
     }
     public void Resume() {
@@ -40,6 +41,7 @@ public class MenuPause : MonoBehaviour
         // descativar menu
         menuPause.SetActive(false);
         gamePause = false;
+        Musica.Instance.ReanudarMusic();
         Debug.Log("Resumen");
     }
 
@@ -56,6 +58,7 @@ public class MenuPause : MonoBehaviour
         Debug.Log("Cerrar juego");
         Time.timeScale = 1f;//tiempo de juego
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        Musica.Instance.CambiarMenu(Musica.Instance.menuMusic);
         gamePause = false;
     }
 
@@ -64,6 +67,7 @@ public class MenuPause : MonoBehaviour
         Debug.Log("Seleccionar carro");
         Time.timeScale = 1f;//tiempo de juego
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Musica.Instance.CambiarMenu(Musica.Instance.menuMusic);
     }
     //solo para ver si los puntos se estan modificando
     public void Prueba()

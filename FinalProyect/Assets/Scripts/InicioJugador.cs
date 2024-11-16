@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,8 @@ using UnityEngine;
 public class InicioJugador : MonoBehaviour
 {
     private Weather weather;
+    private Musica musica;
+
     void Start()
     {
         // index jugador
@@ -18,6 +21,10 @@ public class InicioJugador : MonoBehaviour
         //encontrar untania de un objeto, en este caso srcip
         weather = FindObjectOfType<Weather>();
         weather.ChangeSkybox(TypeSky());
+        //para reprodur la musica
+        Musica.Instance.audioSource.Stop();
+        Musica.Instance.ElegirMusic();
+        
     }
 
     private int TypeSky()
@@ -25,4 +32,6 @@ public class InicioJugador : MonoBehaviour
         int tipoCielo = 0 ;
         return tipoCielo = Random.Range(1,4);
     }
+
+    
 }
