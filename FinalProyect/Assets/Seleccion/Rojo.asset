@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7474e289aa40024baf73d7a18ebba39, type: 3}
   m_Name: Rojo
   m_EditorClassIdentifier: 
-  carroPosible: {fileID: 3294564219125457607, guid: 8a8f57edf3523624eb9f886833e8e97a, type: 3}
+  carroPosible: {fileID: 2983355129230764145, guid: 20fc2a89a5eeafe468a2cd9a945dad9c, type: 3}
   imagen: {fileID: 21300000, guid: 6642cdfb28d6f6344b76d84aa861cc6b, type: 3}
   nombre: Rojo
