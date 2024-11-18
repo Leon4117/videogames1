@@ -103,7 +103,6 @@ public class PrometeoCarController : MonoBehaviour
       public GameObject handbrakeButton;
       PrometeoTouchInput handbrakePTI;
       public float turboMultiplier = 3f; 
-      private bool isTurboActive = false;  
 
     //CAR DATA
 
@@ -309,11 +308,9 @@ public class PrometeoCarController : MonoBehaviour
           ResetSteeringAngle();
         }
         if(Input.GetKey(KeyCode.X)){
-          isTurboActive = true;
           impulseParticle.Play();
           carRigidbody.AddForce(focalPoint.transform.forward * 300, ForceMode.Impulse);
           } else if (Input.GetKeyUp(KeyCode.X)) {
-            isTurboActive = false;
             impulseParticle.Stop();
         }
 
