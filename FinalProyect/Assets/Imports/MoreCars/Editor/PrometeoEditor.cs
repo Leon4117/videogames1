@@ -186,61 +186,9 @@ public class PrometeoEditor : Editor{
 
     EditorGUILayout.EndToggleGroup();
 
-    //
-    //
-    //UI
-    //
-    //
 
-    GUILayout.Space(25);
-    GUILayout.Label("UI", EditorStyles.boldLabel);
-    GUILayout.Space(10);
 
-    useUI.boolValue = EditorGUILayout.BeginToggleGroup("Use UI (Speed text)?", useUI.boolValue);
-    GUILayout.Space(10);
 
-        EditorGUILayout.PropertyField(carSpeedText, new GUIContent("Speed Text (UI): "));
-
-    EditorGUILayout.EndToggleGroup();
-
-    //
-    //
-    //SOUNDS
-    //
-    //
-
-    GUILayout.Space(25);
-    GUILayout.Label("SOUNDS", EditorStyles.boldLabel);
-    GUILayout.Space(10);
-
-    useSounds.boolValue = EditorGUILayout.BeginToggleGroup("Use sounds (car sounds)?", useSounds.boolValue);
-    GUILayout.Space(10);
-
-        EditorGUILayout.PropertyField(carEngineSound, new GUIContent("Car Engine Sound: "));
-        EditorGUILayout.PropertyField(tireScreechSound, new GUIContent("Tire Screech Sound: "));
-
-    EditorGUILayout.EndToggleGroup();
-
-    //
-    //
-    //TOUCH CONTROLS
-    //
-    //
-
-    GUILayout.Space(25);
-    GUILayout.Label("TOUCH CONTROLS", EditorStyles.boldLabel);
-    GUILayout.Space(10);
-
-    useTouchControls.boolValue = EditorGUILayout.BeginToggleGroup("Use touch controls (mobile devices)?", useTouchControls.boolValue);
-    GUILayout.Space(10);
-
-        EditorGUILayout.PropertyField(throttleButton, new GUIContent("Throttle Button: "));
-        EditorGUILayout.PropertyField(reverseButton, new GUIContent("Brakes/Reverse Button: "));
-        EditorGUILayout.PropertyField(turnLeftButton, new GUIContent("Turn Left Button: "));
-        EditorGUILayout.PropertyField(turnRightButton, new GUIContent("Turn Right Button: "));
-        EditorGUILayout.PropertyField(handbrakeButton, new GUIContent("Handbrake Button: "));
-
-    EditorGUILayout.EndToggleGroup();
 
     //END
 
