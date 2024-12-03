@@ -83,26 +83,7 @@ public class PrometeoCarController : MonoBehaviour
       // The following trail renderers are used as tire skids when the car loses traction.
       public TrailRenderer RLWTireSkid;
       public TrailRenderer RRWTireSkid;
-
-    //SPEED TEXT (UI)
-
-      [Space(20)]
-      //[Header("UI")]
-      [Space(10)]
-      //The following variable lets you to set up a UI text to display the speed of your car.
-      public bool useUI = false;
-      public Text carSpeedText; // Used to store the UI object that is going to show the speed of the car.
-
-    //SOUNDS
-
-      [Space(20)]
-      //[Header("Sounds")]
-      [Space(10)]
-      //The following variable lets you to set up sounds for your car such as the car engine or tire screech sounds.
-      public bool useSounds = false;
-      public AudioSource carEngineSound; // This variable stores the sound of the car engine.
-      public AudioSource tireScreechSound; // This variable stores the sound of the tire screech (when the car is drifting).
-      float initialCarEngineSoundPitch; // Used to store the initial pitch of the car engine sound.
+      public ParticleSystem impulseParticle;
 
     //CONTROLS
 
@@ -121,6 +102,7 @@ public class PrometeoCarController : MonoBehaviour
       PrometeoTouchInput turnLeftPTI;
       public GameObject handbrakeButton;
       PrometeoTouchInput handbrakePTI;
+      public float turboMultiplier = 3f; 
 
     //CAR DATA
 
@@ -130,6 +112,8 @@ public class PrometeoCarController : MonoBehaviour
       public bool isDrifting; // Used to know whether the car is drifting or not.
       [HideInInspector]
       public bool isTractionLocked; // Used to know whether the traction of the car is locked or not.
+      private GameObject focalPoint;
+      public float turboForce = 500f;
 
     //PRIVATE VARIABLES
 
@@ -161,6 +145,9 @@ public class PrometeoCarController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+      focalPoint = GameObject.Find("focalPoint");
+      impulseParticle=focalPoint.transform.Find("Turbo").GetComponent<ParticleSystem>();
+      impulseParticle.Stop();
       //In this part, we set the 'carRigidbody' value with the Rigidbody attached to this
       //gameObject. Also, we define the center of mass of the car with the Vector3 given
       //in the inspector.
@@ -199,32 +186,10 @@ public class PrometeoCarController : MonoBehaviour
         RRwheelFriction.asymptoteValue = rearRightCollider.sidewaysFriction.asymptoteValue;
         RRwheelFriction.stiffness = rearRightCollider.sidewaysFriction.stiffness;
 
-        // We save the initial pitch of the car engine sound.
-        if(carEngineSound != null){
-          initialCarEngineSoundPitch = carEngineSound.pitch;
-        }
 
         // We invoke 2 methods inside this script. CarSpeedUI() changes the text of the UI object that stores
         // the speed of the car and CarSounds() controls the engine and drifting sounds. Both methods are invoked
         // in 0 seconds, and repeatedly called every 0.1 seconds.
-        if(useUI){
-          InvokeRepeating("CarSpeedUI", 0f, 0.1f);
-        }else if(!useUI){
-          if(carSpeedText != null){
-            carSpeedText.text = "0";
-          }
-        }
-
-        if(useSounds){
-          InvokeRepeating("CarSounds", 0f, 0.1f);
-        }else if(!useSounds){
-          if(carEngineSound != null){
-            carEngineSound.Stop();
-          }
-          if(tireScreechSound != null){
-            tireScreechSound.Stop();
-          }
-        }
 
         if(!useEffects){
           if(RLWParticleSystem != null){
@@ -240,26 +205,6 @@ public class PrometeoCarController : MonoBehaviour
             RRWTireSkid.emitting = false;
           }
         }
-
-        if(useTouchControls){
-          if(throttleButton != null && reverseButton != null &&
-          turnRightButton != null && turnLeftButton != null
-          && handbrakeButton != null){
-
-            throttlePTI = throttleButton.GetComponent<PrometeoTouchInput>();
-            reversePTI = reverseButton.GetComponent<PrometeoTouchInput>();
-            turnLeftPTI = turnLeftButton.GetComponent<PrometeoTouchInput>();
-            turnRightPTI = turnRightButton.GetComponent<PrometeoTouchInput>();
-            handbrakePTI = handbrakeButton.GetComponent<PrometeoTouchInput>();
-            touchControlsSetup = true;
-
-          }else{
-            String ex = "Touch controls are not completely set up. You must drag and drop your scene buttons in the" +
-            " PrometeoCarController component.";
-            Debug.LogWarning(ex);
-          }
-        }
-
     }
 
     // Update is called once per frame
@@ -362,6 +307,12 @@ public class PrometeoCarController : MonoBehaviour
         if(!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && steeringAxis != 0f){
           ResetSteeringAngle();
         }
+        if(Input.GetKey(KeyCode.X)){
+          impulseParticle.Play();
+          carRigidbody.AddForce(focalPoint.transform.forward * 300, ForceMode.Impulse);
+          } else if (Input.GetKeyUp(KeyCode.X)) {
+            impulseParticle.Stop();
+        }
 
       }
 
@@ -371,52 +322,12 @@ public class PrometeoCarController : MonoBehaviour
 
     }
 
-    // This method converts the car speed data from float to string, and then set the text of the UI carSpeedText with this value.
-    public void CarSpeedUI(){
-
-      if(useUI){
-          try{
-            float absoluteCarSpeed = Mathf.Abs(carSpeed);
-            carSpeedText.text = Mathf.RoundToInt(absoluteCarSpeed).ToString();
-          }catch(Exception ex){
-            Debug.LogWarning(ex);
-          }
-      }
-
-    }
+    // This method converts the car speed data from float to string, and then set the text of the UI carSpeedText with this value
 
     // This method controls the car sounds. For example, the car engine will sound slow when the car speed is low because the
     // pitch of the sound will be at its lowest point. On the other hand, it will sound fast when the car speed is high because
     // the pitch of the sound will be the sum of the initial pitch + the car speed divided by 100f.
     // Apart from that, the tireScreechSound will play whenever the car starts drifting or losing traction.
-    public void CarSounds(){
-
-      if(useSounds){
-        try{
-          if(carEngineSound != null){
-            float engineSoundPitch = initialCarEngineSoundPitch + (Mathf.Abs(carRigidbody.velocity.magnitude) / 25f);
-            carEngineSound.pitch = engineSoundPitch;
-          }
-          if((isDrifting) || (isTractionLocked && Mathf.Abs(carSpeed) > 12f)){
-            if(!tireScreechSound.isPlaying){
-              tireScreechSound.Play();
-            }
-          }else if((!isDrifting) && (!isTractionLocked || Mathf.Abs(carSpeed) < 12f)){
-            tireScreechSound.Stop();
-          }
-        }catch(Exception ex){
-          Debug.LogWarning(ex);
-        }
-      }else if(!useSounds){
-        if(carEngineSound != null && carEngineSound.isPlaying){
-          carEngineSound.Stop();
-        }
-        if(tireScreechSound != null && tireScreechSound.isPlaying){
-          tireScreechSound.Stop();
-        }
-      }
-
-    }
 
     //
     //STEERING METHODS

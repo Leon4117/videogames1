@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnManager : MonoBehaviour
-{
+public class SpawnManager : MonoBehaviour {
+    public GameObject[] carPrefabs;
+    private Vector3 carSpawnPos;
+    private float startDelay = 2.0f;
+    private float spawnInterval = 2.0f;
     public GameObject[] obstaclePrefabs;
     private float spawnPosX;
     private float spawnPosZ;
@@ -11,15 +14,20 @@ public class SpawnManager : MonoBehaviour
     float startDelay;
     float repeatRate;
     public static SpawnManager Instance;
-
     // Start is called before the first frame update
-    void Start(){
-        //SpawnObstacle(1);
+    void Start() {
+        InvokeRepeating("SpawnRandomCar", startDelay, spawnInterval);
     }
 
     // Update is called once per frame
-    void Update(){
+    void Update() {
         
+    }
+
+    void SpawnRandomCar() {
+        carSpawnPos = new Vector3(Random.Range(10.0f, 30.0f), 0, Random.Range(-28.0f, -21.0f));
+        int carIndex = Random.Range(0, carPrefabs.Length);
+        Instantiate(carPrefabs[carIndex], carSpawnPos, carPrefabs[carIndex].transform.rotation);
     }
 
     private Vector3 GenerateSpawnPosition(int pos){
