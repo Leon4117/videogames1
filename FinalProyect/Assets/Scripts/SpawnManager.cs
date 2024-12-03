@@ -14,6 +14,7 @@ public class SpawnManager : MonoBehaviour {
     float startDelay;
     float repeatRate;
     public static SpawnManager Instance;
+
     // Start is called before the first frame update
     void Start() {
         InvokeRepeating("SpawnRandomCar", startDelay, spawnInterval);
@@ -29,7 +30,7 @@ public class SpawnManager : MonoBehaviour {
         int carIndex = Random.Range(0, carPrefabs.Length);
         Instantiate(carPrefabs[carIndex], carSpawnPos, carPrefabs[carIndex].transform.rotation);
     }
-
+  
     private Vector3 GenerateSpawnPosition(int pos){
         var spawnRanges = new (Vector2 xRange, Vector2 zRange)[]{
             (new Vector2(93, 102), new Vector2(19, 55)),   // Pos 1
