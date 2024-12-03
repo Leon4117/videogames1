@@ -12,6 +12,7 @@ public class MenuSeleccion : MonoBehaviour
     [SerializeField] private Image image;
     [SerializeField] private TextMeshProUGUI nombre;
     private GameManager gameManager;
+    [SerializeField] private SpawnManager spawnManagerScript;
 
     public void Start()
     {
@@ -25,6 +26,8 @@ public class MenuSeleccion : MonoBehaviour
             index = 0;
         }
         CambiarSeleccion();
+        //spawnManagerScript = GameObject.Find("SpawnObstacle").GetComponent<SpawnManager>();
+        
     }
 
     public void CambiarSeleccion()
@@ -68,11 +71,26 @@ public class MenuSeleccion : MonoBehaviour
     {
         //carga el juego
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(InitializeSpawnManager());
     }
     public void Back()
     {
         Debug.Log("Atras");       
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
        
+    }
+    private IEnumerator InitializeSpawnManager(){
+        yield return new WaitForEndOfFrame(); // Espera a que la escena cargue completamente
+
+        spawnManagerScript = GameObject.FindObjectOfType<SpawnManager>();
+        if (spawnManagerScript != null)
+        {
+            Debug.Log("SpawnManager encontrado. Configurando obstáculos.");
+            spawnManagerScript.InvokeRepeating("SpawnObstacles", 2.0f, 2.0f);
+        }
+        else
+        {
+            Debug.LogError("SpawnManager no encontrado.");
+        }
     }
 }
