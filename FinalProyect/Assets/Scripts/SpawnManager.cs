@@ -33,13 +33,13 @@ public class SpawnManager : MonoBehaviour {
   
     private Vector3 GenerateSpawnPosition(int pos){
         var spawnRanges = new (Vector2 xRange, Vector2 zRange)[]{
-            (new Vector2(93, 102), new Vector2(19, 55)),   // Pos 1
-            (new Vector2(85, 133), new Vector2(51, 55)),  // Pos 2
-            (new Vector2(133, 164), new Vector2(51, 55)), // Pos 3
-            (new Vector2(160, 164), new Vector2(51, 63)), // Pos 4
-            (new Vector2(161, 215), new Vector2(60, 63)), // Pos 5
-            (new Vector2(210, 215), new Vector2(-6, 63)), // Pos 6
-            (new Vector2(161, 215), new Vector2(5, 14))   // Pos 7
+            (new Vector2(34, 41), new Vector2(-16, 21)),   // Pos 1
+            (new Vector2(26, 74), new Vector2(15, 21)),  // Pos 2
+            (new Vector2(74, 100), new Vector2(17, 21)), // Pos 3
+            (new Vector2(101, 106), new Vector2(17, 29)), // Pos 4
+            (new Vector2(106, 149), new Vector2(25, 29)), // Pos 5
+            (new Vector2(149, 157), new Vector2(-43, 29)), // Pos 6
+            (new Vector2(43, 157), new Vector2(-19, -30))   // Pos 7
         };
 
         var (xRange, zRange) = spawnRanges[pos - 1];
