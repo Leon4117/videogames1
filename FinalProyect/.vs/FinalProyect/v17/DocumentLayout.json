@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\iniciojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\bentho automation\\desktop\\proyectofinal\\videogames1\\finalproyect\\assets\\scripts\\iniciojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iniciojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\bentho automation\\desktop\\proyectofinal\\videogames1\\finalproyect\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\menuseleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuseleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\StartGame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puntaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\menuseleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuseleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\transicionescenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\transicionescenas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -70,7 +70,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Menu.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\Menu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Menu.cs",
@@ -83,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Puntaje.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\Puntaje.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Puntaje.cs",
@@ -96,31 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SpawnManager.cs",
-              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\SpawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
-              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\SpawnManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:43:52.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StartGame.cs",
-              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\StartGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StartGame.cs",
-              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\StartGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StartGame.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T09:32:23.5Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Start.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\Start.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Start.cs",
@@ -131,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Musica.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\Musica.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Musica.cs",
@@ -143,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "MenuAbout.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuAbout.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuAbout.cs",
@@ -167,32 +143,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InicioJugador.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\InicioJugador.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\InicioJugador.cs",
               "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\InicioJugador.cs",
               "RelativeToolTip": "Assets\\Scripts\\InicioJugador.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T05:25:39.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "MenuSeleccion.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuSeleccion.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuSeleccion.cs",
               "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuSeleccion.cs",
               "RelativeToolTip": "Assets\\Scripts\\MenuSeleccion.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwEcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwEcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T04:59:57.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
+              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:43:52.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StartGame.cs",
+              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\StartGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StartGame.cs",
+              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\StartGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StartGame.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T09:32:23.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -228,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MenuPause.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuPause.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MenuPause.cs",

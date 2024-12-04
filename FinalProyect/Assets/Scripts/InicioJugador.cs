@@ -7,6 +7,7 @@ public class InicioJugador : MonoBehaviour
 {
     private Weather weather;
     private Musica musica;
+    [SerializeField] private SpawnManager spawnManagerScript;
 
     void Start()
     {
@@ -24,7 +25,17 @@ public class InicioJugador : MonoBehaviour
         //para reprodur la musica
         Musica.Instance.audioSource.Stop();
         Musica.Instance.ElegirMusic();
-        
+
+        spawnManagerScript = GameObject.FindObjectOfType<SpawnManager>();
+        if (spawnManagerScript != null)
+        {
+            Debug.Log("SpawnManager encontrado. Configurando obstáculos.");
+            spawnManagerScript.InvokeRepeating("SpawnObstacles", 2.0f, 2.0f);
+        }
+        else
+        {
+            Debug.LogError("SpawnManager no encontrado.");
+        }
     }
 
     private int TypeSky()
