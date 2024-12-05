@@ -6,6 +6,7 @@ using TMPro;
 public class Cronometer : MonoBehaviour
 {
     private float timeRemaining = 120;
+    private float timeCinema = 16;
     [SerializeField] private TextMeshProUGUI timer;
     [SerializeField] private GameObject buttonPause;
     [SerializeField] private GameObject menuPuntos;
@@ -26,12 +27,20 @@ public class Cronometer : MonoBehaviour
         }
         else
         {
-            timeRemaining -= Time.deltaTime;
+            if(timeCinema > 0)
+            {
+                timeCinema -= Time.deltaTime;
+            }
+            else
+            {
+                timeRemaining -= Time.deltaTime;
+            }
+            
         }
 
         int minutes = Mathf.FloorToInt(timeRemaining / 60);
         int seconds = Mathf.FloorToInt(timeRemaining % 60);
-        if (seconds <= 20)
+        if ((seconds <= 20 && minutes == 0) && timeCinema < 0)
         {
             if(seconds % 2 == 0)
                 timer.color = Color.red;

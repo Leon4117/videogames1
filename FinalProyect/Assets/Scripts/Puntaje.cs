@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Cinemachine;
+using UnityEngine.Playables;
 public class Puntaje : MonoBehaviour
 {
     //estos puntos se los deben pasar del "Player"
@@ -15,11 +17,13 @@ public class Puntaje : MonoBehaviour
     //Contenedores informacion
     [SerializeField] private GameObject buttonPause;
     [SerializeField] private GameObject menuPuntaje;
+    private CinemachineBrain cinematica;
     public bool gameEnd = false;
     private Cronometer time;
     private void Start()
     {
         time = FindObjectOfType<Cronometer>();
+        cinematica = FindObjectOfType<CinemachineBrain>();
     }
 
 
@@ -47,6 +51,7 @@ public class Puntaje : MonoBehaviour
     //para activar el panel de los puntos
     public void MostrarPuntajeFinal()
     {
+        cinematica.enabled = true;
         puntaje1.text = puntos[0].ToString(); 
         puntaje2.text = puntos[1].ToString(); 
         puntaje3.text = puntos[2].ToString(); 

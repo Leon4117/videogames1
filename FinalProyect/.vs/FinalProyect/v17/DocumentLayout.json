@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\cronometer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cronometer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\bentho automation\\desktop\\proyectofinal\\videogames1\\finalproyect\\assets\\scripts\\prometeoeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prometeoeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\bentho automation\\desktop\\proyectofinal\\videogames1\\finalproyect\\assets\\scripts\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\puntaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\puntaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\bentho automation\\desktop\\proyectofinal\\videogames1\\finalproyect\\assets\\scripts\\iniciojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\iniciojugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\bentho automation\\desktop\\proyectofinal\\videogames1\\finalproyect\\assets\\scripts\\menuseleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\menuseleccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\bentho automation\\desktop\\proyectofinal\\videogames1\\finalproyect\\assets\\scripts\\prometeocarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\prometeocarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\bentho automation\\desktop\\proyectofinal\\videogames1\\finalproyect\\assets\\scripts\\objectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|c:\\users\\bentho automation\\desktop\\proyectofinal\\videogames1\\finalproyect\\assets\\scripts\\cronometer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cronometer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\objectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weather.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBE8C45B-DA75-6779-D8B8-CBCD5F6A27AA}|Assembly-CSharp.csproj|C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\assets\\scripts\\followplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,24 +50,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PrometeoEditor.cs",
-              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\PrometeoEditor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PrometeoEditor.cs",
-              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\PrometeoEditor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PrometeoEditor.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAAAMkAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "MenuSeleccion.cs",
+              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuSeleccion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuSeleccion.cs",
+              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\MenuSeleccion.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MenuSeleccion.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T09:05:36.494Z",
+              "WhenOpened": "2024-12-05T19:43:15.2Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "PrometeoCarController.cs",
+              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\PrometeoCarController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PrometeoCarController.cs",
+              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\PrometeoCarController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PrometeoCarController.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAwO8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T19:42:40.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InicioJugador.cs",
+              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\InicioJugador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\InicioJugador.cs",
+              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\InicioJugador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\InicioJugador.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAQwDAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T19:15:28.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Weather.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\Weather.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weather.cs",
@@ -72,13 +106,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ObjectCollision.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\ObjectCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ObjectCollision.cs",
               "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\ObjectCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\ObjectCollision.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwDYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T08:21:41.108Z",
               "EditorCaption": ""
@@ -98,53 +132,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Puntaje.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\Puntaje.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Puntaje.cs",
               "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\Puntaje.cs",
               "RelativeToolTip": "Assets\\Scripts\\Puntaje.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwCAAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwBMAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-11T02:43:09.224Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
+              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwDoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T19:45:27.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Cronometer.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\Cronometer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Cronometer.cs",
               "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\Cronometer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Cronometer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T05:46:44.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "FollowPlayer.cs",
               "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\FollowPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FollowPlayer.cs",
               "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\FollowPlayer.cs",
               "RelativeToolTip": "Assets\\Scripts\\FollowPlayer.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBsAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T06:49:09.768Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SpawnManager.cs",
-              "DocumentMoniker": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\SpawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
-              "ToolTip": "C:\\Users\\Bentho Automation\\Desktop\\ProyectoFinal\\videogames1\\FinalProyect\\Assets\\Scripts\\SpawnManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T19:45:27.643Z"
+              "WhenOpened": "2024-12-05T06:49:09.768Z",
+              "EditorCaption": ""
             }
           ]
         }

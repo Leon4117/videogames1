@@ -1,7 +1,9 @@
+using Cinemachine;
 using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class InicioJugador : MonoBehaviour
 {
@@ -9,6 +11,9 @@ public class InicioJugador : MonoBehaviour
     private Musica musica;
     [SerializeField] private SpawnManager spawnManagerScript;
     public GameObject player;
+    private CinemachineBrain cinematica;
+    private PrometeoCarController car;
+    float remaining = 15;
 
     void Start()
     {
@@ -20,7 +25,7 @@ public class InicioJugador : MonoBehaviour
         //intanciar el personaje, esta en game manager lista  le damos el index tomamos al prefab
         player = Instantiate(GameManager.Instance.seleccionsCar[indexCarro].carroPosible, transform.position, rotacion);
         player.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
-        player.GetComponent<PrometeoCarController>().isPlayStart = true;
+        car = player.GetComponent<PrometeoCarController>();
         //nuevo clima
         //encontrar untania de un objeto, en este caso srcip
         weather = FindObjectOfType<Weather>();
@@ -34,11 +39,28 @@ public class InicioJugador : MonoBehaviour
         {
             Debug.Log("SpawnManager encontrado. Configurando obstáculos.");
             spawnManagerScript.InvokeRepeating("SpawnObstacles", 2.0f, 2.0f);
-            spawnManagerScript.isPlayStart = true;
+            spawnManagerScript.isPlayStart = false;
         }
         else
         {
             Debug.LogError("SpawnManager no encontrado.");
+        }
+
+        cinematica = FindObjectOfType<CinemachineBrain>();
+    }
+
+    private void Update()
+    {
+        
+        if(remaining <= 0)
+        {
+            cinematica.enabled = false;
+            spawnManagerScript.isPlayStart = true;
+            car.isPlayStart = true;
+        }
+        else
+        {
+            remaining -= Time.deltaTime;
         }
     }
 
