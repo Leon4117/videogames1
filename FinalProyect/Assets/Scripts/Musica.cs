@@ -17,6 +17,7 @@ public class Musica : MonoBehaviour
     public AudioClip paranoid;
     public AudioClip savior;
     public AudioClip tokyoDrift;
+    public AudioClip cancionRusa;
 
     public AudioClip menuMusic;
     public AudioSource audioSource;
@@ -43,7 +44,7 @@ public class Musica : MonoBehaviour
     private int TypeMusic()
     {
         int tipoMusi = 0;
-        tipoMusi = Random.Range(1, 10);
+        tipoMusi = Random.Range(1, 11);
         Debug.Log("No." + tipoMusi);
         return tipoMusi;
     }
@@ -78,6 +79,9 @@ public class Musica : MonoBehaviour
                 break;
             case 9:
                 audioSource.clip = tokyoDrift;
+                break;
+            case 10:
+                audioSource.clip = cancionRusa;
                 break;
             default:
                 Debug.Log("Nop");

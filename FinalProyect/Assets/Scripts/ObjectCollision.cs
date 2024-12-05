@@ -10,10 +10,15 @@ public class ObjectCollision : MonoBehaviour
     [SerializeField] private float valor = 10.0f;
     private int collisions = 0;
     private Puntaje pointSys;
+    public AudioClip explosion;
+    public AudioClip objeto;
+    
+    private AudioSource audioSonido;
     // Start is called before the first frame update
     void Start()
     {
         pointSys = FindObjectOfType<Puntaje>();
+        audioSonido = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -31,12 +36,14 @@ public class ObjectCollision : MonoBehaviour
                 GameObject antExp = GameObject.FindGameObjectWithTag("Explosion");
                 if (antExp != null)
                 {
+                    audioSonido.PlayOneShot(explosion);
                     Destroy(antExp);
                 }
                 Instantiate(explosionParticle, gameObject.transform.position, gameObject.transform.rotation);
             }
             if (!isNonExplosive || collisions == 5)
             {
+                audioSonido.PlayOneShot(objeto);
                 Destroy(gameObject);
             }
             else

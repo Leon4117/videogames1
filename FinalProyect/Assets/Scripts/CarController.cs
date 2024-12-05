@@ -13,10 +13,12 @@ public class CarController : MonoBehaviour {
     [SerializeField] private ParticleSystem explosionParticle;
     [SerializeField] private float valor = 30.0f;
     private Cronometer time;
-
+    public AudioClip choque;
+    private AudioSource audioSonido;
     void Start() {
         //speed = Random.Range(15.0f, 20.0f);
         GameObject[] waypointObjects = GameObject.FindGameObjectsWithTag("Waypoint");
+        audioSonido = GetComponent<AudioSource>();
         waypoints = new Transform[waypointObjects.Length];
         for (int i = 0; i < waypointObjects.Length; i++) {
             waypoints[i] = waypointObjects[i].transform;
@@ -50,6 +52,7 @@ public class CarController : MonoBehaviour {
         {
             isMoving = false;
             collisions++;
+            audioSonido.PlayOneShot(choque);
             if (collisions == 3)
             {
                 int num = Random.Range(0, 10);

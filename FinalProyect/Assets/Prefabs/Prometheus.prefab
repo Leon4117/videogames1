@@ -246,6 +246,12 @@ MonoBehaviour:
   isDrifting: 0
   isTractionLocked: 0
   turboForce: 500
+  isPlayStart: 0
+  ruidoCarroW: {fileID: 0}
+  ruidoCarroS: {fileID: 0}
+  ruidoCarroA: {fileID: 0}
+  ruidoCarroD: {fileID: 0}
+  ruidoCarroES: {fileID: 0}
 --- !u!65 &-5526675319047204223
 BoxCollider:
   m_ObjectHideFlags: 0

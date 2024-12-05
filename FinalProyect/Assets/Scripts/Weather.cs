@@ -21,7 +21,8 @@ public class Weather : MonoBehaviour
     //luces del carro
     public Light[] carroLuces;
     public Light[] farosLuces;
-   
+    //particula de lluvia 
+    public GameObject lluviaParti;
     public void ChangeSkybox(int weatherType)
     {
         switch (weatherType)
@@ -29,7 +30,8 @@ public class Weather : MonoBehaviour
             case 1:
                 //se asigna el material al skybox
                 Debug.Log("Nublado");
-               
+                //activa particula lluvia 
+                lluviaParti.SetActive(true);
                 //asigna cierta intensidad a las luces junto con el color
                 mainLight.intensity = 0.8f;
                 mainLight.color = cloudyLi;
@@ -40,7 +42,7 @@ public class Weather : MonoBehaviour
                 break;
             case 2:
                 Debug.Log("Soleado");
-                
+                lluviaParti.SetActive(false);
                 mainLight.intensity = 0.9f;
                 mainLight.color = sunnyLi;
                 if (secLight != null) secLight.intensity = 0.9f;
@@ -51,7 +53,7 @@ public class Weather : MonoBehaviour
                 break;
             case 3:
                 Debug.Log("Noshe");
-                
+                lluviaParti.SetActive(false);
                 mainLight.intensity = 0.5f;
                 mainLight.color = nightLi;
                 if (secLight != null) secLight.intensity = 0.3f;

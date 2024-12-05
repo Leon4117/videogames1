@@ -9,6 +9,9 @@ public class InicioJugador : MonoBehaviour
     private Musica musica;
     [SerializeField] private SpawnManager spawnManagerScript;
     public GameObject player;
+    public AudioClip ruidoCarro;
+
+    private AudioSource audioSonido;
 
     void Start()
     {
@@ -29,6 +32,8 @@ public class InicioJugador : MonoBehaviour
         Musica.Instance.audioSource.Stop();
         Musica.Instance.ElegirMusic();
 
+        audioSonido = GetComponent<AudioSource>();
+        audioSonido.PlayOneShot(ruidoCarro);
         spawnManagerScript = GameObject.FindObjectOfType<SpawnManager>();
         if (spawnManagerScript != null)
         {

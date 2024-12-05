@@ -74,6 +74,7 @@
     <Compile Include="Assets\Imports\Animaciones\Examples\Scripts\TestingUnitTests.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\Imports\Animaciones\Framework\LTSeq.cs" />
+    <Compile Include="Assets\Scripts\Cronometer.cs" />
     <Compile Include="Assets\Scripts\PrometeoEditor.cs" />
     <Compile Include="Assets\Imports\MoreCars\Scripts\PrometeoTouchInput.cs" />
     <Compile Include="Assets\Imports\Explosiones\WarFX\Demo\Assets\WFX_Demo.cs" />
@@ -159,7 +160,6 @@
     <Compile Include="Assets\UI\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\Imports\Animaciones\Examples\Scripts\Following.cs" />
-    <Compile Include="Assets\Scripts\Cronometer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\UI\TextMesh Pro\Shaders\TMPro.cginc" />

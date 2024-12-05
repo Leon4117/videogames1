@@ -91,6 +91,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.33
       objectReference: {fileID: 0}
+    - target: {fileID: 6771450788936465033, guid: 133308cdb8794744caaef026bde9e1f0, type: 3}
+      propertyPath: useEffects
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8936419992728765777, guid: 133308cdb8794744caaef026bde9e1f0, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -176,7 +180,8 @@ MonoBehaviour:
   rearLeftCollider: {fileID: 7887936941379631419}
   rearRightMesh: {fileID: 9158325168604551737}
   rearRightCollider: {fileID: 5223429399262309916}
-  useEffects: 1
+  animateWheel: 0
+  useEffects: 0
   RLWParticleSystem: {fileID: 9212461273718043095}
   RRWParticleSystem: {fileID: 9212461273460182739}
   RLWTireSkid: {fileID: 2523721939899614748}
@@ -193,6 +198,7 @@ MonoBehaviour:
   isDrifting: 0
   isTractionLocked: 0
   turboForce: 500
+  isPlayStart: 0
 --- !u!1001 &6494893255986933552
 PrefabInstance:
   m_ObjectHideFlags: 0

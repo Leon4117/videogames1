@@ -145,10 +145,19 @@ public class PrometeoCarController : MonoBehaviour
       WheelFrictionCurve RRwheelFriction;
       float RRWextremumSlip;
 
+    public AudioClip ruidoCarroW;
+    public AudioClip ruidoCarroS;
+    public AudioClip ruidoCarroA;
+    public AudioClip ruidoCarroD;
+    public AudioClip ruidoCarroES;
+    private AudioSource audioSonido;
+
     // Start is called before the first frame update
     void Start()
     {
-      focalPoint = GameObject.Find("focalPoint");
+
+        audioSonido = GetComponent<AudioSource>();
+        focalPoint = GameObject.Find("focalPoint");
       //impulseParticle=focalPoint.transform.Find("Turbo").GetComponent<ParticleSystem>();
       //impulseParticle.Stop();
       //In this part, we set the 'carRigidbody' value with the Rigidbody attached to this
@@ -293,12 +302,15 @@ public class PrometeoCarController : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.W))
                 {
+                    //audioSonido.PlayOneShot(ruidoCarroW);
+                    //audioSonido.isPlaying
                     CancelInvoke("DecelerateCar");
                     deceleratingCar = false;
                     GoForward();
                 }
                 if (Input.GetKey(KeyCode.S))
                 {
+                    //audioSonido.PlayOneShot(ruidoCarroS);
                     CancelInvoke("DecelerateCar");
                     deceleratingCar = false;
                     GoReverse();
@@ -306,33 +318,40 @@ public class PrometeoCarController : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.A))
                 {
+                    //audioSonido.PlayOneShot(ruidoCarroA);
                     TurnLeft();
                 }
                 if (Input.GetKey(KeyCode.D))
                 {
+                    //audioSonido.PlayOneShot(ruidoCarroD);
                     TurnRight();
                 }
                 if (Input.GetKey(KeyCode.Space))
                 {
+                    //audioSonido.PlayOneShot(ruidoCarroES);
                     CancelInvoke("DecelerateCar");
                     deceleratingCar = false;
                     Handbrake();
                 }
                 if (Input.GetKeyUp(KeyCode.Space))
                 {
+                    //audioSonido.PlayOneShot(ruidoCarroES);
                     RecoverTraction();
                 }
                 if ((!Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W)))
                 {
+                    
                     ThrottleOff();
                 }
                 if ((!Input.GetKey(KeyCode.S) && !Input.GetKey(KeyCode.W)) && !Input.GetKey(KeyCode.Space) && !deceleratingCar)
                 {
+                    
                     InvokeRepeating("DecelerateCar", 0f, 0.1f);
                     deceleratingCar = true;
                 }
                 if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D) && steeringAxis != 0f)
                 {
+                    
                     ResetSteeringAngle();
                 }
                 //if(Input.GetKey(KeyCode.X)){

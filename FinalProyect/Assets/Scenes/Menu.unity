@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -184,7 +184,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a661219a67923df4da8b8cf2b304ebb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d0df33b8b202916408e9327bd0ee294f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -895,7 +895,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a661219a67923df4da8b8cf2b304ebb2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d0df33b8b202916408e9327bd0ee294f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1062,6 +1062,7 @@ MonoBehaviour:
   paranoid: {fileID: 8300000, guid: 218a857ed8b215949b3bae206968ef04, type: 3}
   savior: {fileID: 8300000, guid: e2d7739e99000e54499a6997c4b5092c, type: 3}
   tokyoDrift: {fileID: 8300000, guid: b13aca21de4e47246976139a1a71ff37, type: 3}
+  cancionRusa: {fileID: 0}
   menuMusic: {fileID: 8300000, guid: 884bae49c0617dd4da39430181252f33, type: 3}
   audioSource: {fileID: 0}
   audioClip: {fileID: 0}
