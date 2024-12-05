@@ -5,41 +5,53 @@ using TMPro;
 public class Puntaje : MonoBehaviour
 {
     //estos puntos se los deben pasar del "Player"
-    private float puntos;
-    [SerializeField] private TextMeshProUGUI puntaje1;
-    [SerializeField] private TextMeshProUGUI puntaje2;
-    [SerializeField] private TextMeshProUGUI puntaje3;
+    private float[] puntos = new float[3];
+    private float total = 0;
+    [SerializeField] private TextMeshProUGUI puntaje1; //carros
+    [SerializeField] private TextMeshProUGUI puntaje2; //objetos
+    [SerializeField] private TextMeshProUGUI puntaje3; //explosivos
     [SerializeField] private TextMeshProUGUI puntajeTotal;
+    [SerializeField] private TextMeshProUGUI puntajeVista;
     //Contenedores informacion
     [SerializeField] private GameObject buttonPause;
     [SerializeField] private GameObject menuPuntaje;
     public bool gameEnd = false;
+    private Cronometer time;
     private void Start()
     {
-        
+        time = FindObjectOfType<Cronometer>();
     }
 
 
     private void Update()
     {
         //segundos
-        puntos += Time.deltaTime; 
+        //puntos += Time.deltaTime; 
         //modificar el text ,solo enteros
-        puntaje1.text = "100000"; 
-        puntaje2.text = "165400"; 
-        puntaje3.text = "000000"; 
-        puntajeTotal.text = "1234567";
+        if (time.isGameOver)
+        {
+            MostrarPuntajeFinal();
+        }
     }
 
     //posibles metodos para agregar los puntos
-    public void SumarPuntos(float puntosTotales)
+    public void SumarPuntos(float puntosTotales, int categoria)
     {
-        puntos += puntosTotales;
+        if (!time.isGameOver)
+        {
+            puntos[categoria] += puntosTotales;
+            total += puntosTotales;
+            puntajeVista.text = "Puntos: " + total.ToString();
+        }
     }
     //para activar el panel de los puntos
     public void MostrarPuntajeFinal()
     {
-        puntaje1.text = puntos.ToString("0");
+        puntaje1.text = puntos[0].ToString(); 
+        puntaje2.text = puntos[1].ToString(); 
+        puntaje3.text = puntos[2].ToString(); 
+        puntajeTotal.text = total.ToString();
+        //puntaje1.text = puntos.ToString("0");
         buttonPause.SetActive(false);
         menuPuntaje.SetActive(true);
     }

@@ -8,6 +8,7 @@ public class InicioJugador : MonoBehaviour
     private Weather weather;
     private Musica musica;
     [SerializeField] private SpawnManager spawnManagerScript;
+    public GameObject player;
 
     void Start()
     {
@@ -17,7 +18,9 @@ public class InicioJugador : MonoBehaviour
         Quaternion rotacion = Quaternion.Euler(0, 90, 0);
         //la posicion que toma es la del objeto InicioJugador
         //intanciar el personaje, esta en game manager lista  le damos el index tomamos al prefab
-        Instantiate(GameManager.Instance.seleccionsCar[indexCarro].carroPosible, transform.position, rotacion);
+        player = Instantiate(GameManager.Instance.seleccionsCar[indexCarro].carroPosible, transform.position, rotacion);
+        player.transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
+        player.GetComponent<PrometeoCarController>().isPlayStart = true;
         //nuevo clima
         //encontrar untania de un objeto, en este caso srcip
         weather = FindObjectOfType<Weather>();
@@ -31,6 +34,7 @@ public class InicioJugador : MonoBehaviour
         {
             Debug.Log("SpawnManager encontrado. Configurando obstáculos.");
             spawnManagerScript.InvokeRepeating("SpawnObstacles", 2.0f, 2.0f);
+            spawnManagerScript.isPlayStart = true;
         }
         else
         {

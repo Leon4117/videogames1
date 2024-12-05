@@ -213,8 +213,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waypoints: []
-  speed: 8
-  turnSpeed: 5
+  explosionParticle: {fileID: 19800008, guid: 8b5998b8106de3b44b83e8409d049027, type: 3}
+  valor: 30
 --- !u!114 &1184170306037693181
 MonoBehaviour:
   m_ObjectHideFlags: 0
