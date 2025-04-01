@@ -20,15 +20,38 @@ public class CarController : MonoBehaviour {
         GameObject[] waypointObjects = GameObject.FindGameObjectsWithTag("Waypoint");
         audioSonido = GetComponent<AudioSource>();
         waypoints = new Transform[waypointObjects.Length];
-        for (int i = 0; i < waypointObjects.Length; i++) {
-            waypoints[i] = waypointObjects[i].transform;
+        for (int i = waypointObjects.Length-1; i >= 0; i--) {
+            if (waypointObjects[i].name.Equals("WayPoint1"))
+            {
+                waypoints[0] = waypointObjects[i].transform;
+            }
+            if (waypointObjects[i].name.Equals("WayPoint2"))
+            {
+                waypoints[1] = waypointObjects[i].transform;
+            }
+            if (waypointObjects[i].name.Equals("WayPoint3"))
+            {
+                waypoints[2] = waypointObjects[i].transform;
+            }
+            if (waypointObjects[i].name.Equals("WayPoint4"))
+            {
+                waypoints[3] = waypointObjects[i].transform;
+            }
+            if (waypointObjects[i].name.Equals("WayPoint5"))
+            {
+                waypoints[4] = waypointObjects[i].transform;
+            }
+            if (waypointObjects[i].name.Equals("WayPoint6"))
+            {
+                waypoints[5] = waypointObjects[i].transform;
+            }
         }
         pointSys = FindObjectOfType<Puntaje>();
         time = FindObjectOfType<Cronometer>();
     }
     
     void Update() {
-        if (isMoving && !time.isGameOver)
+        if (isMoving)
         {
             if (waypoints.Length == 0) return;
         

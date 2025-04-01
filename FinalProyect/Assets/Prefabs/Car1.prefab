@@ -213,7 +213,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b808f02e99adc74ca0b9c1a231e4132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints: []
+  waypoints:
+  - {fileID: 4441961744015105992, guid: 376bb0de5ded0c44c8d0b84c8c14ddf7, type: 3}
+  - {fileID: 5237426868567532964, guid: 756c6a44c797c4649875b55dad559fa4, type: 3}
+  - {fileID: 2244939859531704501, guid: cd9ebf5ae98041441872d04c75ca92e8, type: 3}
+  - {fileID: 7568357401062574505, guid: 20097ac2932d5714da83581f0d6eff33, type: 3}
+  - {fileID: 1296459259466874804, guid: b53f3ae386d4b93499c8bd6b3b33d9f8, type: 3}
+  - {fileID: 8304478803306821620, guid: 6b06ccfe73f688f449705a621ccdc51d, type: 3}
+  waypointsy: []
   explosionParticle: {fileID: 19800008, guid: 8b5998b8106de3b44b83e8409d049027, type: 3}
   valor: 30
   choque: {fileID: 8300000, guid: 18d7ed690b9eb9c45a47b1b3fbca2c6c, type: 3}
